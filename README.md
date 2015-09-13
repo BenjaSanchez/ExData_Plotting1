@@ -1,4 +1,20 @@
-## Introduction
+ExData_Plotting1
+========================
+
+## About
+
+This repo includes all scripts developed for completing the 1st programming assignment of the on-line course "Exploratory Data Analysys" in Coursera: _plot1.R_, _plot2.R_, _plot3.R_ and _plot4.R_. Additionally all 4 plots are also included (_plot1.png_, _plot2.png_, _plot3.png_ and _plot4.png_).
+
+
+PLEASE NOTE: For these scripts to run properly, you should download and unzip the file <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> in your working directory.
+
+Benjamín Sánchez. Last edited: 2015-09-13
+
+========================
+
+## Original Instruccions:
+
+### Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -7,14 +23,12 @@ datasets. In particular, we will be using the "Individual household
 electric power consumption Data Set" which I have made available on
 the course web site:
 
-
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
 * <b>Description</b>: Measurements of electric power consumption in
 one household with a one-minute sampling rate over a period of almost
 4 years. Different electrical quantities and some sub-metering values
 are available.
-
 
 The following descriptions of the 9 variables in the dataset are taken
 from
@@ -33,11 +47,7 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-## Loading the data
-
-
-
-
+### Loading the data
 
 When loading the dataset into R, please consider the following:
 
@@ -58,7 +68,7 @@ functions.
 * Note that in this dataset missing values are coded as `?`.
 
 
-## Making Plots
+### Making Plots
 
 Our overall goal here is simply to examine how household energy usage
 varies over a 2-day period in February, 2007. Your task is to
@@ -69,7 +79,7 @@ First you will need to fork and clone the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
 
-For each plot you should
+For each plot you should:
 
 * Construct the plot and save it to a PNG file with a width of 480
 pixels and a height of 480 pixels.
@@ -87,28 +97,3 @@ include the code that creates the PNG file.
 When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
-
-
-The four plots that you will need to construct are shown below. 
-
-
-### Plot 1
-
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
-
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
-
