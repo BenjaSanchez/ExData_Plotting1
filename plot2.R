@@ -1,5 +1,5 @@
 ################################################################################
-## plot1.R
+## plot2.R
 ## 
 ## Benjamín J. Sánchez. Last Update: 2015-09-13
 ################################################################################
@@ -12,11 +12,10 @@ data$Date <- as.Date(data$Date, format = '%d/%m/%Y')
 data$Global_active_power <- as.numeric(as.character(data$Global_active_power))
 
 #Construct plot:
-png(filename = 'plot1.png', width = 480, height = 480)
+png(filename = 'plot2.png', width = 480, height = 480)
 par(mfrow = c(1,1))
-hist(data$Global_active_power,col = 'red',
-     xlab = 'Global Active Power (kilowatts)',
-     main = 'Global Active Power')
+with(data,plot(Time,Global_active_power,type = 'l', col = 'black',
+               xlab = '', ylab = 'Global Active Power (kilowatts)'))
 dev.off()
 
 ################################################################################

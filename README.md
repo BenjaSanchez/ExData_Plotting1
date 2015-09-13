@@ -3,16 +3,16 @@ ExData_Plotting1
 
 ## About
 
-This repo includes all scripts developed for completing the 1st programming assignment of the on-line course "Exploratory Data Analysys" in Coursera: _plot1.R_, _plot2.R_, _plot3.R_ and _plot4.R_. Additionally all 4 plots are also included (_plot1.png_, _plot2.png_, _plot3.png_ and _plot4.png_).
+This repo includes all scripts developed for completing the 1st programming assignment of the on-line course "Exploratory Data Analysys" in Coursera: `plot1.R`, `plot2.R`, `plot3.R` and `plot4.R`. Additionally the corresponding 4 plots are also included (`plot1.png`, `plot2.png`, `plot3.png` and `plot4.png`).
 
 
-PLEASE NOTE: For these scripts to run properly, you should download and unzip the file <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> in your working directory.
+<b>PLEASE NOTE</b>: For these scripts to run properly, you should download and unzip the file <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> in your working directory.
 
 Benjamín Sánchez. Last edited: 2015-09-13
 
 ========================
 
-## Original Instruccions:
+## Original Instructions
 
 ### Introduction
 
